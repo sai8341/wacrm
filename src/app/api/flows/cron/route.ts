@@ -3,6 +3,8 @@ import { NextResponse } from 'next/server'
 import { supabaseAdmin } from '@/lib/flows/admin-client'
 import { resolveFallbackPolicy } from '@/lib/flows/fallback'
 
+export const dynamic = 'force-dynamic'
+
 /**
  * Sweep abandoned active flow runs.
  *
